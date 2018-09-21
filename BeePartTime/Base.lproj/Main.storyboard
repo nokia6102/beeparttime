@@ -82,7 +82,7 @@
             </objects>
             <point key="canvasLocation" x="1778" y="-573"/>
         </scene>
-        <!--即時定位-->
+        <!--storyboard的-->
         <scene sceneID="lio-1S-Leb">
             <objects>
                 <viewController id="kL6-3Y-3w5" sceneMemberID="viewController">
@@ -101,7 +101,7 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="83J-Fm-5Dh"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="即時定位" id="Nh7-Rr-PpF"/>
+                    <tabBarItem key="tabBarItem" title="storyboard的" id="Nh7-Rr-PpF"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="215-bY-XoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
