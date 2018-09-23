@@ -16,6 +16,7 @@
 		84A750E32147834F00BBDE3E /* BeePartTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A750E22147834F00BBDE3E /* BeePartTimeTests.swift */; };
 		84A750EE2147834F00BBDE3E /* BeePartTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A750ED2147834F00BBDE3E /* BeePartTimeUITests.swift */; };
 		DBC7BCB62154D01D00950267 /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7BCB52154D01D00950267 /* myTabBarController.swift */; };
+		DBF6968A2157B684004107D1 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBF696892157B684004107D1 /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		84A750ED2147834F00BBDE3E /* BeePartTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeePartTimeUITests.swift; sourceTree = "<group>"; };
 		84A750EF2147834F00BBDE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DBC7BCB52154D01D00950267 /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
+		DBF696892157B684004107D1 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				84A750E12147834E00BBDE3E /* BeePartTimeTests */,
 				84A750EC2147834F00BBDE3E /* BeePartTimeUITests */,
 				84A750CB2147834E00BBDE3E /* Products */,
+				DBF696842157B2BB004107D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +107,7 @@
 				84A750CD2147834E00BBDE3E /* AppDelegate.swift */,
 				84A750CF2147834E00BBDE3E /* ViewController.swift */,
 				DBC7BCB52154D01D00950267 /* myTabBarController.swift */,
+				DBF696892157B684004107D1 /* MapViewController.swift */,
 				84A750D12147834E00BBDE3E /* Main.storyboard */,
 				84A750D42147834E00BBDE3E /* Assets.xcassets */,
 				849CE7C9214F9FC400405F00 /* AppIcon.appiconset */,
@@ -129,6 +133,13 @@
 				84A750EF2147834F00BBDE3E /* Info.plist */,
 			);
 			path = BeePartTimeUITests;
+			sourceTree = "<group>";
+		};
+		DBF696842157B2BB004107D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,6 +211,11 @@
 					84A750C92147834E00BBDE3E = {
 						CreatedOnToolsVersion = 9.2;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
 					};
 					84A750DD2147834E00BBDE3E = {
 						CreatedOnToolsVersion = 9.2;
@@ -269,6 +285,7 @@
 				84A750D02147834E00BBDE3E /* ViewController.swift in Sources */,
 				DBC7BCB62154D01D00950267 /* myTabBarController.swift in Sources */,
 				84A750CE2147834E00BBDE3E /* AppDelegate.swift in Sources */,
+				DBF6968A2157B684004107D1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

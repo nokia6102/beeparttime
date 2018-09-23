@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6Z0-mZ-Lek">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O2P-2W-lsO">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -80,32 +80,37 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mRz-7C-gvG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1778" y="-573"/>
+            <point key="canvasLocation" x="1935" y="-611"/>
         </scene>
         <!--storyboard的-->
         <scene sceneID="lio-1S-Leb">
             <objects>
-                <viewController id="kL6-3Y-3w5" sceneMemberID="viewController">
+                <viewController id="kL6-3Y-3w5" customClass="MapViewController" customModule="BeePartTime" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HEg-9K-1Lk">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="第二頁" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iby-tW-3go">
-                                <rect key="frame" x="161" y="323" width="52" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Q6a-sM-tQ2">
+                                <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                            </mapView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="83J-Fm-5Dh" firstAttribute="bottom" secondItem="Q6a-sM-tQ2" secondAttribute="bottom" id="N13-8B-MCi"/>
+                            <constraint firstItem="83J-Fm-5Dh" firstAttribute="trailing" secondItem="Q6a-sM-tQ2" secondAttribute="trailing" id="P9k-zR-ukm"/>
+                            <constraint firstItem="Q6a-sM-tQ2" firstAttribute="top" secondItem="83J-Fm-5Dh" secondAttribute="top" id="kId-1b-0Xo"/>
+                            <constraint firstItem="Q6a-sM-tQ2" firstAttribute="leading" secondItem="83J-Fm-5Dh" secondAttribute="leading" id="lpJ-dQ-FhI"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="83J-Fm-5Dh"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="storyboard的" id="Nh7-Rr-PpF"/>
+                    <connections>
+                        <outlet property="myMap" destination="Q6a-sM-tQ2" id="ohb-n6-Mdw"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="215-bY-XoC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3154" y="-703"/>
+            <point key="canvasLocation" x="1934" y="116"/>
         </scene>
         <!--我的最愛-->
         <scene sceneID="JrL-cD-HEg">
@@ -130,7 +135,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UrQ-nr-4pj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3967" y="-286"/>
+            <point key="canvasLocation" x="1934" y="882"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="gta-ih-151">
@@ -148,7 +153,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Hd-LA-UHg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-914" y="161"/>
+            <point key="canvasLocation" x="-906" y="116"/>
         </scene>
         <!--My Tab Bar Controller-->
         <scene sceneID="XM2-WT-xCH">
