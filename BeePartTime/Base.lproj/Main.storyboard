@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="O2P-2W-lsO">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="dJo-HO-dyu">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
-        <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -64,6 +63,33 @@
                                 <rect key="frame" x="16" y="128" width="343" height="427"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="lbE-Ph-Em5">
+                                        <rect key="frame" x="0.0" y="28" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="lbE-Ph-Em5" id="8aT-pH-OWI">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="hkQ-v2-OhZ">
+                                        <rect key="frame" x="0.0" y="72" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="hkQ-v2-OhZ" id="25m-Ob-YM4">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="Thi-79-or0">
+                                        <rect key="frame" x="0.0" y="116" width="343" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Thi-79-or0" id="2DU-bB-Hui">
+                                            <rect key="frame" x="0.0" y="0.0" width="343" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
+                                <sections/>
                             </tableView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="主畫面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jYi-5t-CGn">
                                 <rect key="frame" x="161" y="83" width="52" height="21"/>
@@ -213,7 +239,7 @@
                     </connections>
                 </swipeGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="-1172" y="-788"/>
+            <point key="canvasLocation" x="-1270" y="-870"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="CzT-pT-DyZ">
@@ -295,8 +321,45 @@
             </objects>
             <point key="canvasLocation" x="406" y="-788"/>
         </scene>
+        <!--Frist View Controller-->
+        <scene sceneID="f4n-z6-pmy">
+            <objects>
+                <viewController id="dJo-HO-dyu" customClass="FristViewController" customModule="BeePartTime" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Sgk-0C-ila" customClass="Artboard1View" customModule="BeePartTime" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="ugW-Ep-MBN">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="ugW-Ep-MBN" firstAttribute="bottom" secondItem="RfI-2h-QKB" secondAttribute="bottom" id="8Wv-Pp-wN4"/>
+                            <constraint firstAttribute="trailing" secondItem="ugW-Ep-MBN" secondAttribute="trailing" id="OWJ-Dn-DNg"/>
+                            <constraint firstItem="ugW-Ep-MBN" firstAttribute="leading" secondItem="Sgk-0C-ila" secondAttribute="leading" id="RFN-fg-Op4"/>
+                            <constraint firstItem="ugW-Ep-MBN" firstAttribute="top" secondItem="Sgk-0C-ila" secondAttribute="top" id="t6O-Ie-roN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="RfI-2h-QKB"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="H5j-ZY-NRs" appends="YES" id="wMk-Ex-218"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" id="73A-B1-tN6"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ayi-Gy-gk1" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer cancelsTouchesInView="NO" delaysTouchesBegan="YES" direction="left" id="H5j-ZY-NRs">
+                    <connections>
+                        <segue destination="6Z0-mZ-Lek" kind="presentation" identifier="goToMainUI" id="x7q-xj-d0t"/>
+                    </connections>
+                </swipeGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="-2092" y="-870.31484257871068"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="background" width="864" height="1533"/>
         <image name="honeybet" width="42" height="42"/>
         <image name="worklist" width="42" height="42"/>
     </resources>
