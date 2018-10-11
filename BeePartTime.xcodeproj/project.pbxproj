@@ -7,14 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		849CE7CA214F9FC400405F00 /* AppIcon.appiconset in Resources */ = {isa = PBXBuildFile; fileRef = 849CE7C9214F9FC400405F00 /* AppIcon.appiconset */; };
-		84A750CE2147834E00BBDE3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A750CD2147834E00BBDE3E /* AppDelegate.swift */; };
 		84A750D02147834E00BBDE3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A750CF2147834E00BBDE3E /* ViewController.swift */; };
 		84A750D32147834E00BBDE3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A750D12147834E00BBDE3E /* Main.storyboard */; };
 		84A750D52147834E00BBDE3E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A750D42147834E00BBDE3E /* Assets.xcassets */; };
 		84A750D82147834E00BBDE3E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A750D62147834E00BBDE3E /* LaunchScreen.storyboard */; };
 		84A750E32147834F00BBDE3E /* BeePartTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A750E22147834F00BBDE3E /* BeePartTimeTests.swift */; };
 		84A750EE2147834F00BBDE3E /* BeePartTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A750ED2147834F00BBDE3E /* BeePartTimeUITests.swift */; };
+		DBBB4CF9216F31B10048D014 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBB4CF8216F31B10048D014 /* AppDelegate.swift */; };
+		DBBF61CC216F336300E9DA3B /* WorkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBBF61CB216F336300E9DA3B /* WorkTableViewCell.swift */; };
 		DBC7BCB62154D01D00950267 /* myTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC7BCB52154D01D00950267 /* myTabBarController.swift */; };
 		DBE6AA25216A0392000364E8 /* Artboard1View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6AA24216A0391000364E8 /* Artboard1View.swift */; };
 		DBE6AA27216A1623000364E8 /* FristViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBE6AA26216A1623000364E8 /* FristViewController.swift */; };
@@ -39,9 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		849CE7C9214F9FC400405F00 /* AppIcon.appiconset */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AppIcon.appiconset; sourceTree = "<group>"; };
 		84A750CA2147834E00BBDE3E /* BeePartTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BeePartTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		84A750CD2147834E00BBDE3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A750CF2147834E00BBDE3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84A750D22147834E00BBDE3E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A750D42147834E00BBDE3E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +51,8 @@
 		84A750E92147834F00BBDE3E /* BeePartTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BeePartTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A750ED2147834F00BBDE3E /* BeePartTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeePartTimeUITests.swift; sourceTree = "<group>"; };
 		84A750EF2147834F00BBDE3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBBB4CF8216F31B10048D014 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DBBF61CB216F336300E9DA3B /* WorkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkTableViewCell.swift; sourceTree = "<group>"; };
 		DBC7BCB52154D01D00950267 /* myTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myTabBarController.swift; sourceTree = "<group>"; };
 		DBE6AA24216A0391000364E8 /* Artboard1View.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Artboard1View.swift; sourceTree = "<group>"; };
 		DBE6AA26216A1623000364E8 /* FristViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FristViewController.swift; sourceTree = "<group>"; };
@@ -108,15 +108,11 @@
 		84A750CC2147834E00BBDE3E /* BeePartTime */ = {
 			isa = PBXGroup;
 			children = (
-				DBE6AA26216A1623000364E8 /* FristViewController.swift */,
-				DBE6AA24216A0391000364E8 /* Artboard1View.swift */,
-				84A750CD2147834E00BBDE3E /* AppDelegate.swift */,
-				84A750CF2147834E00BBDE3E /* ViewController.swift */,
-				DBC7BCB52154D01D00950267 /* myTabBarController.swift */,
-				DBF696892157B684004107D1 /* MapViewController.swift */,
+				DBBB4CF8216F31B10048D014 /* AppDelegate.swift */,
+				DBBB4CF7216F31970048D014 /* View */,
+				DBBB4CF6216F31460048D014 /* Controller */,
 				84A750D12147834E00BBDE3E /* Main.storyboard */,
 				84A750D42147834E00BBDE3E /* Assets.xcassets */,
-				849CE7C9214F9FC400405F00 /* AppIcon.appiconset */,
 				84A750D62147834E00BBDE3E /* LaunchScreen.storyboard */,
 				84A750D92147834E00BBDE3E /* Info.plist */,
 			);
@@ -139,6 +135,26 @@
 				84A750EF2147834F00BBDE3E /* Info.plist */,
 			);
 			path = BeePartTimeUITests;
+			sourceTree = "<group>";
+		};
+		DBBB4CF6216F31460048D014 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DBE6AA26216A1623000364E8 /* FristViewController.swift */,
+				84A750CF2147834E00BBDE3E /* ViewController.swift */,
+				DBC7BCB52154D01D00950267 /* myTabBarController.swift */,
+				DBF696892157B684004107D1 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DBBB4CF7216F31970048D014 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DBE6AA24216A0391000364E8 /* Artboard1View.swift */,
+				DBBF61CB216F336300E9DA3B /* WorkTableViewCell.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		DBF696842157B2BB004107D1 /* Frameworks */ = {
@@ -260,7 +276,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				849CE7CA214F9FC400405F00 /* AppIcon.appiconset in Resources */,
 				84A750D82147834E00BBDE3E /* LaunchScreen.storyboard in Resources */,
 				84A750D52147834E00BBDE3E /* Assets.xcassets in Resources */,
 				84A750D32147834E00BBDE3E /* Main.storyboard in Resources */,
@@ -288,11 +303,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBBB4CF9216F31B10048D014 /* AppDelegate.swift in Sources */,
+				DBBF61CC216F336300E9DA3B /* WorkTableViewCell.swift in Sources */,
 				84A750D02147834E00BBDE3E /* ViewController.swift in Sources */,
 				DBE6AA27216A1623000364E8 /* FristViewController.swift in Sources */,
 				DBE6AA25216A0392000364E8 /* Artboard1View.swift in Sources */,
 				DBC7BCB62154D01D00950267 /* myTabBarController.swift in Sources */,
-				84A750CE2147834E00BBDE3E /* AppDelegate.swift in Sources */,
 				DBF6968A2157B684004107D1 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

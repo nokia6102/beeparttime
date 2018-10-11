@@ -10,8 +10,11 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
+        //隱藏NavigationBar的顯示
+        self.navigationController?.setNavigationBarHidden(true, animated: false)
     }
 
    
